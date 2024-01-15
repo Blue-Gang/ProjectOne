@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    
+}
+
+.incol{
+    width: 180px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 2px;
+    
+    
+}
+.btn{
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+    
+}
+
+
+.btn1 {
+    gap: 21px;
+    display: flex;
+    margin: 15px;
+    padding: 15px;
+}
+
+.orient{
+    display:flex ;
+    width: 180px;
+}
+
+
+
+#orientation{
+    border: solid 1px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputRang{
+    width: 200px;
+    color: blue;
+    margin-top: 15px;
+
+}
+
+.inputhexa{
+    position: absolute;
+    left: 21px;
+    top: 17px;
+    
+}
+
+.colorcontainer{
+    position: relative;
+}
